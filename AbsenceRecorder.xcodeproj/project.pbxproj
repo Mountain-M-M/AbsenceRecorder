@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8527039C2987C44100CC7FE9 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8527039B2987C44100CC7FE9 /* Student.swift */; };
+		8527039E2987C4A100CC7FE9 /* Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8527039D2987C4A100CC7FE9 /* Division.swift */; };
 		8571C09E2982EE1D0022479B /* AbsenceRecorderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8571C09D2982EE1D0022479B /* AbsenceRecorderApp.swift */; };
 		8571C0A02982EE1D0022479B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8571C09F2982EE1D0022479B /* ContentView.swift */; };
 		8571C0A22982EE200022479B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8571C0A12982EE200022479B /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8527039B2987C44100CC7FE9 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		8527039D2987C4A100CC7FE9 /* Division.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Division.swift; sourceTree = "<group>"; };
 		8571C09A2982EE1D0022479B /* AbsenceRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbsenceRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8571C09D2982EE1D0022479B /* AbsenceRecorderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsenceRecorderApp.swift; sourceTree = "<group>"; };
 		8571C09F2982EE1D0022479B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +78,8 @@
 		852703992987C41500CC7FE9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8527039D2987C4A100CC7FE9 /* Division.swift */,
+				8527039B2987C44100CC7FE9 /* Student.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -274,6 +280,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8571C0A02982EE1D0022479B /* ContentView.swift in Sources */,
+				8527039C2987C44100CC7FE9 /* Student.swift in Sources */,
+				8527039E2987C4A100CC7FE9 /* Division.swift in Sources */,
 				8571C09E2982EE1D0022479B /* AbsenceRecorderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
