@@ -9,13 +9,19 @@
 /* Begin PBXBuildFile section */
 		8527039C2987C44100CC7FE9 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8527039B2987C44100CC7FE9 /* Student.swift */; };
 		8527039E2987C4A100CC7FE9 /* Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8527039D2987C4A100CC7FE9 /* Division.swift */; };
+		852703A1298876CA00CC7FE9 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852703A0298876CA00CC7FE9 /* Date.swift */; };
 		8571C09E2982EE1D0022479B /* AbsenceRecorderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8571C09D2982EE1D0022479B /* AbsenceRecorderApp.swift */; };
-		8571C0A02982EE1D0022479B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8571C09F2982EE1D0022479B /* ContentView.swift */; };
+		8571C0A02982EE1D0022479B /* DivisionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8571C09F2982EE1D0022479B /* DivisionsView.swift */; };
 		8571C0A22982EE200022479B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8571C0A12982EE200022479B /* Assets.xcassets */; };
 		8571C0A52982EE200022479B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8571C0A42982EE200022479B /* Preview Assets.xcassets */; };
 		8571C0AF2982EE200022479B /* AbsenceRecorderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8571C0AE2982EE200022479B /* AbsenceRecorderTests.swift */; };
 		8571C0B92982EE200022479B /* AbsenceRecorderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8571C0B82982EE200022479B /* AbsenceRecorderUITests.swift */; };
 		8571C0BB2982EE200022479B /* AbsenceRecorderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8571C0BA2982EE200022479B /* AbsenceRecorderUITestsLaunchTests.swift */; };
+		85EC2CEB298AE2FC006D64EF /* DivisionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EC2CEA298AE2FC006D64EF /* DivisionItem.swift */; };
+		85EC2CED298AE49C006D64EF /* AbsenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EC2CEC298AE49C006D64EF /* AbsenceView.swift */; };
+		85EC2CEF298AE5D7006D64EF /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EC2CEE298AE5D7006D64EF /* RootTabView.swift */; };
+		85EC2CF1298AE688006D64EF /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EC2CF0298AE688006D64EF /* StatisticsView.swift */; };
+		85EC2CF3298AE864006D64EF /* StateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EC2CF2298AE864006D64EF /* StateController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +44,10 @@
 /* Begin PBXFileReference section */
 		8527039B2987C44100CC7FE9 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		8527039D2987C4A100CC7FE9 /* Division.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Division.swift; sourceTree = "<group>"; };
+		852703A0298876CA00CC7FE9 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		8571C09A2982EE1D0022479B /* AbsenceRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbsenceRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8571C09D2982EE1D0022479B /* AbsenceRecorderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsenceRecorderApp.swift; sourceTree = "<group>"; };
-		8571C09F2982EE1D0022479B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8571C09F2982EE1D0022479B /* DivisionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionsView.swift; sourceTree = "<group>"; };
 		8571C0A12982EE200022479B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8571C0A42982EE200022479B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8571C0AA2982EE200022479B /* AbsenceRecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbsenceRecorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +55,11 @@
 		8571C0B42982EE200022479B /* AbsenceRecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbsenceRecorderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8571C0B82982EE200022479B /* AbsenceRecorderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsenceRecorderUITests.swift; sourceTree = "<group>"; };
 		8571C0BA2982EE200022479B /* AbsenceRecorderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsenceRecorderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		85EC2CEA298AE2FC006D64EF /* DivisionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionItem.swift; sourceTree = "<group>"; };
+		85EC2CEC298AE49C006D64EF /* AbsenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsenceView.swift; sourceTree = "<group>"; };
+		85EC2CEE298AE5D7006D64EF /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		85EC2CF0298AE688006D64EF /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		85EC2CF2298AE864006D64EF /* StateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +99,21 @@
 		8527039A2987C41A00CC7FE9 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				8571C09F2982EE1D0022479B /* ContentView.swift */,
+				8571C09F2982EE1D0022479B /* DivisionsView.swift */,
+				85EC2CEA298AE2FC006D64EF /* DivisionItem.swift */,
+				85EC2CEC298AE49C006D64EF /* AbsenceView.swift */,
+				85EC2CF0298AE688006D64EF /* StatisticsView.swift */,
+				85EC2CEE298AE5D7006D64EF /* RootTabView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		8527039F298876BD00CC7FE9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				852703A0298876CA00CC7FE9 /* Date.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		8571C0912982EE1D0022479B = {
@@ -115,11 +139,13 @@
 		8571C09C2982EE1D0022479B /* AbsenceRecorder */ = {
 			isa = PBXGroup;
 			children = (
+				8527039F298876BD00CC7FE9 /* Extensions */,
 				8527039A2987C41A00CC7FE9 /* View */,
 				852703992987C41500CC7FE9 /* Model */,
 				8571C09D2982EE1D0022479B /* AbsenceRecorderApp.swift */,
 				8571C0A12982EE200022479B /* Assets.xcassets */,
 				8571C0A32982EE200022479B /* Preview Content */,
+				85EC2CF2298AE864006D64EF /* StateController.swift */,
 			);
 			path = AbsenceRecorder;
 			sourceTree = "<group>";
@@ -279,10 +305,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8571C0A02982EE1D0022479B /* ContentView.swift in Sources */,
+				8571C0A02982EE1D0022479B /* DivisionsView.swift in Sources */,
+				852703A1298876CA00CC7FE9 /* Date.swift in Sources */,
+				85EC2CEF298AE5D7006D64EF /* RootTabView.swift in Sources */,
 				8527039C2987C44100CC7FE9 /* Student.swift in Sources */,
+				85EC2CF1298AE688006D64EF /* StatisticsView.swift in Sources */,
 				8527039E2987C4A100CC7FE9 /* Division.swift in Sources */,
 				8571C09E2982EE1D0022479B /* AbsenceRecorderApp.swift in Sources */,
+				85EC2CEB298AE2FC006D64EF /* DivisionItem.swift in Sources */,
+				85EC2CED298AE49C006D64EF /* AbsenceView.swift in Sources */,
+				85EC2CF3298AE864006D64EF /* StateController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,9 +470,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AbsenceRecorder/Preview Content\"";
+				DEVELOPMENT_TEAM = 6RF82GHTPV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -455,6 +489,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mountain.AbsenceRecorder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -466,9 +501,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AbsenceRecorder/Preview Content\"";
+				DEVELOPMENT_TEAM = 6RF82GHTPV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -483,6 +520,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mountain.AbsenceRecorder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
