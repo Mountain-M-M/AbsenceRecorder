@@ -20,3 +20,4 @@ class Absence: Codable {
     static let example = Absence(date: Date(), students: Student.examples)
     #endif
 }
+

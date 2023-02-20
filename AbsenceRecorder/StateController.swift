@@ -21,6 +21,7 @@ class StateController: ObservableObject {
         }
     }
     
+    
     func saveToFile() {
         FileManager.default.save(to: "divisions.json", object: divisions)
     }

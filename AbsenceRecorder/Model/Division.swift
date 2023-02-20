@@ -16,6 +16,7 @@ class Division : Codable {
         self.code = code
     }
     
+    
     func getAbsence(for date: Date) -> Absence? {
         return absences.first {
             let comparison = Calendar.current.compare($0.takenOn, to: date, toGranularity: .day)

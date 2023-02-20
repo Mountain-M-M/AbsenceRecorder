@@ -23,3 +23,4 @@ class Student: Codable {
     static let examples = [example]
     #endif
 }
+

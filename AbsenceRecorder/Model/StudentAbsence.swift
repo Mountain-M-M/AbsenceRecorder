@@ -37,3 +37,4 @@ class StudentAbsence: ObservableObject, Codable {
     #endif
     
 }
+
